@@ -13,8 +13,9 @@ namespace Lucky_FabioCrespo.Models
         [Required]
         [StringLength(1000, MinimumLength = 5, ErrorMessage = "La suerte debe contener entre 5 a 100 caracteres")]
         public string Detalle { get; set; }
-        [Url]
+        
         [Required]
+        [Url]
         public string Imagen { get; set; }
 
     }
